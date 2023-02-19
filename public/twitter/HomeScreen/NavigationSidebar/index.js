@@ -1,6 +1,6 @@
 const NavigationSidebar = (active) => {
     return(`
-        <div class="list-group d-none d-lg-block">
+        <div class="list-group d-none d-xl-block">
                         <a href="#" class="list-group-item">
                             <i class="fab fa-twitter fa-2x"></i>
                         </a>
@@ -38,7 +38,7 @@ const NavigationSidebar = (active) => {
                         </a>
                     </div>
 
-                    <div class="list-group d-lg-none">
+                    <div class="list-group d-xl-none">
                         <a href="#" class="list-group-item" aria-current="true">
                             <i class="fab fa-twitter fa-2x"></i>
                         </a>
