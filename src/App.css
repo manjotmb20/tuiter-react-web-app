@@ -1,3 +1,7 @@
+#qwe { background-color: red }
+#wer { background-color: blue }
+.qwe { background-color: red; color: white }
+.wer { background-color: blue; color: white }
 .App {
   text-align: center;
 }
