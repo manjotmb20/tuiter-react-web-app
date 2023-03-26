@@ -30,7 +30,7 @@
 }
 
 ::placeholder {
-    color: rgb(110, 118, 125);
+  color: rgb(110, 118, 125);
 }
 
 .wd-float-left {
@@ -50,10 +50,6 @@
 
 .wd-font-size {
     font-size: 15px;
-}
-
-.wd-font-size-summary-list {
-    font-size: 8px;
 }
 
 .wd-duration {
@@ -83,17 +79,17 @@
 }
 
 .wd-bottom-left {
-    position: absolute;
-    bottom: 8px;
-    left: 16px;
-    font-size: 25px;
-    font-weight: bold;
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  font-size: 25px;
+  font-weight: bold;
 }
 
 .wd-container {
-    position: relative;
-    text-align: center;
-    color: white;
+  position: relative;
+  text-align: center;
+  color: white;
 }
 
 .wd-background-color {
@@ -106,6 +102,10 @@
 
 .wd-icon-dark-mode {
     color: white;
+}
+
+.wd-heart-icon {
+    color: red;
 }
 
 .list-group-item-info.override-bs {
@@ -149,12 +149,6 @@
     color: rgb(110, 118, 125);
 }
 
-.wd-heart-icon {
-    padding-top: 10px;
-    color: red;
-    padding-right: 8px;
-}
-
 .wd-settings-icon {
     color: white;
     stroke: blue;
@@ -170,17 +164,17 @@
 }
 
 .wd-hyperlink {
-    color: white;
-    text-decoration: none;
+color: white;
+text-decoration: none;
 }
 
 .wd-hyperlink-grey {
-    color: rgb(110, 118, 125);
-    text-decoration: none;
+color: rgb(110, 118, 125);
+text-decoration: none;
 }
 
 .wd-color-grey {
-    color: rgb(110, 118, 125);
+color: rgb(110, 118, 125);
 }
 
 .wd-side-bar-footer {
@@ -193,14 +187,14 @@
 }
 
 .wd-footer-container {
-    float: left;
-    padding: 7px;
+  float: left;
+  padding: 7px;
 }
 
 .wd-clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
+  content: "";
+  clear: both;
+  display: table;
 }
 
 .active.override-active {
@@ -249,8 +243,8 @@
 }
 
 .border-thin {
-    border-width: 1px;
-    border-radius: 25px;
+border-width: 1px;
+border-radius: 25px;
 }
 
 .border-grey { border-color: rgb(47, 51, 54); }
@@ -258,8 +252,8 @@
 .border-solid { border-style: solid; }
 
 .wd-post-image {
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
+border-top-left-radius: 25px;
+border-top-right-radius: 25px;
 }
 
 .wd-user-handle {

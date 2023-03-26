@@ -8,16 +8,16 @@ const PostItem = (props) => {
                          className="wd-image-style rounded-circle pt-1"/>
                 </div>
                 <div className="col-10">
-                    <div className="wd-float-left wd-text-bold wd-font-color-white">{props.userName}</div>
+                    <div className="wd-float-left wd-text-bold wd-font-color-black">{props.userName}</div>
                     <i className="wd-float-left fa fa-check-circle wd-float-left-side-bar wd-icon-dark-mode pt-1"></i>
                     <div className="wd-float-left wd-user-handle">@{props.handle}</div>
                     <div> - ${props.time}</div>
-                    <div className="wd-font-color-white">{props.tagline}</div>
+                    <div className="wd-font-color-black">{props.tagline}</div>
                     <div className="row border-thin border-grey border-solid">
                         <img src={props.descriptionImage}
                              alt="Not able to load"
                              className="wd-post-image pt-1 pb-1"/>
-                        <div className="wd-text-bold wd-font-color-white">
+                        <div className="wd-text-bold wd-font-color-black">
                         {props.topic}
                         </div>
                         <div className="row ps-4 wd-user-handle">
@@ -25,7 +25,7 @@ const PostItem = (props) => {
                         </div>
                         { props.link!=="" &&
                             <div>
-                                <i className="fa fa-link wd-icon-grey"><a className="ps-1 wd-hyperlink-grey" href={props.link}>{props.linkText}</a></i>
+                                <i className="fa fa-link"><a className="ps-1 wd-hyperlink-grey" href={props.link}>{props.linkText}</a></i>
                             </div>
                         }
                     </div>
