@@ -12,9 +12,9 @@
     "logo-image": "https://logos-download.com/wp-content/uploads/2016/09/React_logo_logotype_emblem.png",
     "avatar-image": "../../../images/react-blue.png",
     "stats": {
-      "comments": 111,
-      "retweets": 222,
-      "likes": 333
+      "comments": 123,
+      "retweets": 234,
+      "likes": 345
     }
   },
   {
@@ -33,9 +33,9 @@
     "avatar-image": "../../../images/node.png",
     "tweets": "120K",
     "stats": {
-      "comments": 444,
-      "retweets": 555,
-      "likes": 666
+      "comments": 123,
+      "retweets": 234,
+      "likes": 345
     }
   },
   {
@@ -52,9 +52,9 @@
     "avatar-image": "../../../images/js.png",
     "tweets": "123K",
     "stats": {
-      "comments": 151,
-      "retweets": 512,
-      "likes": 909
+      "comments": 123,
+      "retweets": 234,
+      "likes": 345
     }
   },
   {
@@ -70,9 +70,9 @@
     "avatar-image": "../../../images/jquery.png",
     "tweets": "122K",
     "stats": {
-      "comments": 811,
-      "retweets": 612,
-      "likes": 92
+      "comments": 123,
+      "retweets": 234,
+      "likes": 345
     }
   },
   {
@@ -88,9 +88,9 @@
     "avatar-image": "../../../images/node.png",
     "tweets": "120K",
     "stats": {
-      "comments": 81,
-      "retweets": 711,
-      "likes": 90
+      "comments": 123,
+      "retweets": 234,
+      "likes": 345
     }
   }
 ]

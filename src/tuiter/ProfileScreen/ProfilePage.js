@@ -34,7 +34,7 @@ const ProfilePage = () => {
 
 
           <div className="pt-3 pe-4">
-              <button className="row btn rounded-pill border pull-right fw-bold wd-font-color-white" onClick={()=>navigate("/a7/twitter/editprofile")}>Edit Profile</button>
+              <button className="row btn rounded-pill border pull-right fw-bold " onClick={()=>navigate("/a7/twitter/editprofile")}>Edit Profile</button>
           </div>
 
           <div className="pt-5"></div>
