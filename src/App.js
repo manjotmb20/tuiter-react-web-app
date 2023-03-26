@@ -42,16 +42,10 @@ function App() {
    <Routes>
 
 
-        <Route path="/a6/practice" element={<A6Practice/>}/>
-
-        <Route path="/a6/hello" element={<A6HelloWorld/>}/>
 
 
 
-
-
-
-
+        <Route path="/" element={<A7Practice/>}/>
         <Route path="/a7/practice" element={<A7Practice/>}/>
         <Route path="/hello" element={<HelloWorld/>}/>
         <Route path="/a7/twitter/" element={<A7Home/>}/>
