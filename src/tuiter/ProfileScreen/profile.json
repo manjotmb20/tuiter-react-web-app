@@ -1,0 +1,19 @@
+[
+  {
+    "firstName": "Manjot",
+    "lastName": "Bedi",
+    "handle": "manjotmb20",
+    "profilePicture": "",
+    "bannerPicture": "",
+    "bio": "Graduate Student, Northeastern University, Khoury College of Computer Science. Open to opportunities in full stack and web development.",
+    "website": "youtube.com/manjotbedi",
+    "location": "Boston, MA",
+    "dateOfBirth": "1996-08-20",
+    "dateJoined": "4/2009",
+    "followingCount": "311",
+    "followersCount": "280",
+    "numberOfTweets": "5,199",
+    "profileImage": "https://media.licdn.com/dms/image/D4E03AQEv91dULUXOFQ/profile-displayphoto-shrink_400_400/0/1679455497336?e=1685577600&v=beta&t=hx56EoWu10NRDeNQFTG6WROVADCgNUdnpS_7URNUvrI",
+    "backgroundImage": "https://infinigeek.com/assets/common-programming-languages.png"
+  }
+]
