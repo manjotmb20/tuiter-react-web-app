@@ -17,38 +17,47 @@ const {pathname} = useLocation();
      </a>
      <Link to="/tuiter/home" className={`list-group-item
                     ${active === 'home'?'active':''}`}>
-       Home
+                    <i className="fa fa-home"> </i>
+       <span className="d-none d-xl-inline">Home</span>
      </Link>
      <Link to="/tuiter/explore" className={`list-group-item
                     ${active === 'explore'?'active':''}`}>
-       Explore
+                     <i className="fa fa-hashtag"></i>
+                    <span className="d-none d-xl-inline">Explore</span>
      </Link>
      <Link to="/" className="list-group-item">
-            Labs
+             <i className="fa fa-star"></i>
+              <span className="d-none d-xl-inline">Labs</span>
           </Link>
      <a className={`list-group-item
                     ${active === 'notifications'?'active':''}`}>
-       Notifications
+       <i className="fa fa-bell"></i>
+                           <span className="d-none d-xl-inline">Notifications</span>
      </a>
      <a className={`list-group-item
                     ${active === 'messages'?'active':''}`}>
-       Messages
+       <i className="fa fa-envelope"></i>
+                           <span className="d-none d-xl-inline">Messages</span>
      </a>
      <a className={`list-group-item
                     ${active === 'bookmarks'?'active':''}`}>
-       Bookmarks
+       <i className="fa fa-bookmark"></i>
+                           <span className="d-none d-xl-inline">Bookmarks</span>
      </a>
      <a className={`list-group-item
                     ${active === 'lists'?'active':''}`}>
-       Lists
+       <i className="fa fa-list"></i>
+                           <span className="d-none d-xl-inline">Lists</span>
      </a>
      <Link to="/tuiter/profile" className={`list-group-item
                     ${active === 'profile'?'active':''}`}>
-       Profile
+       <i className="fa fa-user"></i>
+                           <span className="d-none d-xl-inline">Profile</span>
      </Link>
      <a className={`list-group-item
                     ${active === 'more'?'active':''}`}>
-       More
+       <i className="fa fa-minus-circle"></i>
+                           <span className="d-none d-xl-inline">More</span>
      </a>
    </div>
  );
